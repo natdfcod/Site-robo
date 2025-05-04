@@ -1,0 +1,15 @@
+:root {
+    --gradient-1: linear-gradient(to top, rgb(12, 56, 114), rgba(68, 119, 215));
+    --gradient-2: linear-gradient(to top, rgb(1, 24, 54), rgb(12, 56, 114));
+    --gradient-3: linear-gradient(to top, rgb(0, 10, 23), rgb(1, 24, 54));
+    --color-ligth-grey: rgb(96, 101, 119);
+    --color-dark-grey:rgb(43, 50, 61);
+    --color-light-blue: rgb(0, 112, 255);
+    --color-dark-blue: rgb(0, 10, 23);
+
+}
+* {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+

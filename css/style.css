@@ -20,8 +20,9 @@ a {
     color: white;
 }
 
-ul {
+ul, ol{
     list-style: none;
+    
 }
 
 .container {
@@ -50,13 +51,8 @@ ul {
     border: solid var(--color-dark-grey);
     border-radius: 40px;
 }
-
-li {
-    padding: 6px 0;
-}
-
 /*********header***********/
-.img-robo {
+.img-logo {
     padding-top: 30px;
     width: 148px;
 }
@@ -66,68 +62,47 @@ li {
     height: 100px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 30px 30px 30px 10px;
+    margin-bottom: 50px;
 }
 
 .header-menu {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    gap: 55vw;
 }
 
-.header-menu ul {
-    display: flex;
-    gap: 60px;
+.list-3,.list-1 {
     font-size: 24px;
+    display: flex;
 }
-
-.spaced {
-    margin-left: 50vw;
+.list-3 {
+    gap: 60px;
 }
 
 /********fim-header********/
 
 
-.intro-container {
-    position: relative;
-}
 
 .img-chico-bento {
     width: 454px;
     height: 639px;
-    margin-top: 212px;
-    margin-left: 126px;
-    margin-right: 860px;
-    margin-bottom: 173px;
 }
 
 .title-pg1 {
-    position: absolute;
-    top: 188px;
-    left: 682px;
-    font-size: 80px;
-    line-height: 110px;
-    text-align: left;
-    margin: 0;
+    font-size: 60px;
     color: white;
 }
-
+.content-page {
+    display: flex;
+    justify-content: space-evenly;
+}
 .sobre-o-robo {
-    position: absolute;
-    top: 430px;
-    left: 682px;
     font-size: 20px;
     line-height: 1.5;
-    text-align: left;
     margin: 0;
     max-width: 600px;
     color: var(--color-ligth-grey);
 }
 .descricao-numerada {
-    position: absolute;
-    top: 650px;
-    left: 682px;
     display: flex;
     flex-direction: column;
     gap: 40px;

@@ -2,11 +2,12 @@
     --gradient-1: linear-gradient(to top, rgb(12, 56, 114), rgba(68, 119, 215));
     --gradient-2: linear-gradient(to top, rgb(1, 24, 54), rgb(12, 56, 114));
     --gradient-3: linear-gradient(to top, rgb(0, 10, 23), rgb(1, 24, 54));
-    --color-ligth-grey: rgb(96, 101, 119);
+    --color-ligth-grey-2: #606577;
+    --color-ligth-grey-1: #E0E0E0;
     --color-dark-grey: rgb(43, 50, 61);
     --color-light-blue: rgb(0, 112, 255);
     --color-dark-blue: rgb(0, 10, 23);
-
+    
 }
 
 * {
@@ -60,22 +61,30 @@ ul, ol{
 .header-page {
     width: 100%;
     height: 100px;
-    display: flex;
-    align-items: center;
     margin-bottom: 50px;
 }
-
-.header-menu {
+.list-3-img {
     display: flex;
-    gap: 55vw;
+}
+.header-menu {
+    justify-content: space-between;
+    height: 100px;
 }
 
-.list-3,.list-1 {
+
+.header-menu, .list-3,.list-1 {
+    align-items: center;
     font-size: 24px;
     display: flex;
 }
 .list-3 {
     gap: 60px;
+}
+.spaced-ro {
+    margin-left: 50px;
+}
+.spaced-sn {
+    margin-right: 50px;
 }
 
 /********fim-header********/
@@ -83,8 +92,7 @@ ul, ol{
 
 
 .img-chico-bento {
-    width: 454px;
-    height: 639px;
+    width: 500px;
 }
 
 .title-pg1 {
@@ -100,7 +108,7 @@ ul, ol{
     line-height: 1.5;
     margin: 0;
     max-width: 600px;
-    color: var(--color-ligth-grey);
+    color: var(--color-ligth-grey-1);
 }
 .descricao-numerada {
     display: flex;
@@ -125,7 +133,7 @@ ul, ol{
 
 .item-descricao p {
     font-size: 24px;
-    color: var(--color-ligth-grey);
+    color: var(--color-ligth-grey-1);
     margin: 0; 
     line-height: 32px; 
 }
@@ -135,13 +143,14 @@ ul, ol{
     font-size: 40px;
     font-weight: bold;
 }
+#screen-2 {
+    align-content: center;
+}
 .arma-container {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 250px 100px 100px 100px; 
-    gap: 80px;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
 }
 
 .texto-arma {
@@ -158,11 +167,10 @@ ul, ol{
 .arma-descricao {
     font-size: 24px;
     line-height: 36px;
-    color: var(--color-ligth-grey);
+    color: var(--color-ligth-grey-1);
 }
 
 .img-arma {
     width: 418px;
-    height: 529px;
-    object-fit: contain;
+    margin-right: 60px;
 }

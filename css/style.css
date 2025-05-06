@@ -7,7 +7,7 @@
     --color-dark-grey: rgb(43, 50, 61);
     --color-light-blue: rgb(0, 112, 255);
     --color-dark-blue: rgb(0, 10, 23);
-    
+
 }
 
 * {
@@ -21,9 +21,10 @@ a {
     color: white;
 }
 
-ul, ol{
+ul,
+ol {
     list-style: none;
-    
+
 }
 
 .container {
@@ -52,6 +53,7 @@ ul, ol{
     border: solid var(--color-dark-grey);
     border-radius: 40px;
 }
+
 /*********header***********/
 .img-logo {
     padding-top: 30px;
@@ -63,26 +65,33 @@ ul, ol{
     height: 100px;
     margin-bottom: 50px;
 }
+
 .list-3-img {
     display: flex;
 }
+
 .header-menu {
     justify-content: space-between;
     height: 100px;
 }
 
 
-.header-menu, .list-3,.list-1 {
+.header-menu,
+.list-3,
+.list-1 {
     align-items: center;
     font-size: 24px;
     display: flex;
 }
+
 .list-3 {
     gap: 60px;
 }
+
 .spaced-ro {
     margin-left: 50px;
 }
+
 .spaced-sn {
     margin-right: 50px;
 }
@@ -98,10 +107,12 @@ ul, ol{
     font-size: 60px;
     color: white;
 }
+
 .content-page {
     display: flex;
     justify-content: space-evenly;
 }
+
 .sobre-o-robo {
     font-size: 20px;
     line-height: 1.5;
@@ -109,6 +120,7 @@ ul, ol{
     max-width: 600px;
     color: var(--color-ligth-grey-1);
 }
+
 .descricao-numerada {
     display: flex;
     flex-direction: column;
@@ -133,8 +145,8 @@ ul, ol{
 .item-descricao p {
     font-size: 24px;
     color: var(--color-ligth-grey-1);
-    margin: 0; 
-    line-height: 32px; 
+    margin: 0;
+    line-height: 32px;
 }
 
 .numero {
@@ -143,15 +155,17 @@ ul, ol{
     font-weight: bold;
     font-family: "Martel Sans", sans-serif;
 }
+
 #screen-2 {
     align-content: center;
 }
+
 /*********Fim Apresentacao***********/
 
 /*********Arma***********/
 .arma-container {
     display: flex;
-    justify-content: space-evenly;    
+    justify-content: space-evenly;
 }
 
 .texto-arma {
@@ -175,6 +189,7 @@ ul, ol{
     width: 418px;
     margin-right: 60px;
 }
+
 /*********Fim arma***********/
 
 /*********Galeria***********/
@@ -184,20 +199,24 @@ ul, ol{
     text-align: center;
     padding-bottom: 30px;
 }
+
 .img-direcao {
     color: white;
     font-size: 36px;
 }
+
 .container-img-robo {
     display: flex;
     justify-content: space-evenly;
 }
+
 .container-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 40px;
 }
+
 .img-galeria {
     width: 85%;
     border-radius: 7%;
@@ -210,20 +229,43 @@ ul, ol{
     color: white;
     font-size: 36px;
     font-weight: bold;
+    padding: 59px;
 }
+
 .sub-title {
     color: white;
     font-size: 32px;
     font-weight: bold;
+    padding: 30px;
 }
+
 .startup-descricao {
     color: var(--color-ligth-grey-1);
     font-size: 24px;
     font-weight: bold;
 }
+.diferent {
+
+}
 .contato {
     color: var(--color-ligth-grey-2);
     font-size: 24px;
     font-weight: bold;
+    padding-top: 30px;
 }
+
+.list-style {
+    list-style: disc;
+    padding-top: 0px;
+}
+
+.container-text {
+   width: 60vw;
+}
+.startup {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 /*********Fim Startup***********/

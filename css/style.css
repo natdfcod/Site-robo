@@ -141,6 +141,7 @@ ul, ol{
     color: var(--color-light-blue);
     font-size: 40px;
     font-weight: bold;
+    font-family: "Martel Sans", sans-serif;
 }
 #screen-2 {
     align-content: center;

@@ -89,8 +89,7 @@ ul, ol{
 
 /********fim-header********/
 
-
-
+/*********Apresentacao***********/
 .img-chico-bento {
     width: 500px;
 }
@@ -146,11 +145,12 @@ ul, ol{
 #screen-2 {
     align-content: center;
 }
+/*********Fim Apresentacao***********/
+
+/*********Arma***********/
 .arma-container {
     display: flex;
-    justify-content: space-evenly;
-    
-    
+    justify-content: space-evenly;    
 }
 
 .texto-arma {
@@ -174,3 +174,38 @@ ul, ol{
     width: 418px;
     margin-right: 60px;
 }
+/*********Fim arma***********/
+
+/*********Galeria***********/
+.galeria {
+    color: white;
+    font-size: 80px;
+}
+.img-direcao {
+    color: white;
+    font-size: 36px;
+}
+/*********Fim galeria***********/
+
+/*********Startup***********/
+.title-pg4 {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+}
+.sub-title {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+.startup-descricao {
+    color: var(--color-ligth-grey-1);
+    font-size: 24px;
+    font-weight: bold;
+}
+.contato {
+    color: var(--color-ligth-grey-2);
+    font-size: 24px;
+    font-weight: bold;
+}
+/*********Fim Startup***********/

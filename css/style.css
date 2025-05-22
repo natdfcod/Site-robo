@@ -22,8 +22,8 @@ html {
 }
 
 body {
-    font-size: 1.6rem;
-    background-color: var(--color-dark-blue);
+     font-size: 1.6rem;
+     background-color: var(--color-dark-blue);
 }
 
 a {
@@ -233,3 +233,4 @@ ol {
     border-radius: 7%;
 }
 /*********Fim galeria***********/
+
